@@ -1,0 +1,107 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Header Styles */
+header {
+  background-image: url('https://scontent.fdel1-7.fna.fbcdn.net/v/t39.30808-6/438300218_3592009574387152_3555259236813603914_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=86c6b0&_nc_ohc=lGPpD9FxkXIQ7kNvgFapmNu&_nc_zt=23&_nc_ht=scontent.fdel1-7.fna&_nc_gid=AcAz2XN9GddWAFZVJHx98Xc&oh=00_AYDQOAQ4EMnzRCJpcYyUVLTTt7OGUQE-pQLOeq2kVNIfjA&oe=67945B3A');
+  color: rgb(25, 15, 15);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  border-bottom: 2px solid #282c34;
+  padding-bottom: 5px;
+}
+
+/* Project Section */
+.project {
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #fafafa;
+}
+
+/* Skills List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #ddd;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+/* Contact Section */
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background: #282c34;
+  color: white;
+  font-size: 0.9em;
+}
